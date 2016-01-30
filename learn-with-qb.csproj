@@ -53,12 +53,27 @@
       <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Common">
+      <HintPath>..\Common\Common\bin\Release\Common.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.Client, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.Client.2.2.0\lib\net45\Microsoft.AspNet.SignalR.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.Core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.Core.2.2.0\lib\net45\Microsoft.AspNet.SignalR.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.SystemWeb, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.SystemWeb.2.2.0\lib\net45\Microsoft.AspNet.SignalR.SystemWeb.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -70,21 +85,78 @@
       <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.Owin.Cors, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Cors.3.0.1\lib\net45\Microsoft.Owin.Cors.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Jwt, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Jwt.3.0.1\lib\net45\Microsoft.Owin.Security.Jwt.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.RegistrationByConvention, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.RegistrationByConvention.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
       <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="SendGrid, Version=6.3.4.0, Culture=neutral, PublicKeyToken=4f047e93159395ca, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sendgrid.6.3.4\lib\SendGrid.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SendGrid.SmtpApi, Version=1.3.1.0, Culture=neutral, PublicKeyToken=2ae73662c35d80e4, processorArchitecture=MSIL">
+      <HintPath>..\packages\SendGrid.SmtpApi.1.3.1\lib\net40\SendGrid.SmtpApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SendGridMail, Version=6.3.4.0, Culture=neutral, PublicKeyToken=4f047e93159395ca, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sendgrid.6.3.4\lib\SendGridMail.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.4.0.0\lib\net45\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Cors, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Cors.5.2.3\lib\net45\System.Web.Cors.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.DynamicData" />
@@ -102,6 +174,14 @@
     </Reference>
     <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.Cors, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Cors.5.2.3\lib\net45\System.Web.Http.Cors.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.Owin, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Owin.5.2.3\lib\net45\System.Web.Http.Owin.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -139,13 +219,20 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Unity.WebApi, Version=5.2.3.0, Culture=neutral, PublicKeyToken=43da31bc42a85347, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.WebAPI.5.2.3\lib\net45\Unity.WebApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="WebGrease, Version=1.5.2.14234, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="gulpfile.js" />
     <Content Include="packages.config" />
+    <Content Include="reset.css" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\web.config" />
     <Content Include="Views\Home\Index.cshtml" />
@@ -163,36 +250,116 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Server\ApiConfiguration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Server\Api\ProductController.cs" />
     <Compile Include="Server\Api\SessionController.cs" />
     <Compile Include="Server\Api\VideoController.cs" />
+    <Compile Include="Server\Auth\JwtOptions.cs" />
+    <Compile Include="Server\Auth\JwtWriterFormat.cs" />
+    <Compile Include="Server\Auth\OAuthOptions.cs" />
+    <Compile Include="Server\Auth\OAuthProvider.cs" />
+    <Compile Include="Server\Config\AppConfiguration.cs" />
+    <Compile Include="Server\Config\ConfigurationProvider.cs" />
+    <Compile Include="Server\Config\Contracts\IAppConfiguration.cs" />
+    <Compile Include="Server\Config\Contracts\IConfigurationProvider.cs" />
+    <Compile Include="Server\Config\Contracts\ISmptConfiguration.cs" />
+    <Compile Include="Server\Config\Contracts\IStripeConfiguration.cs" />
+    <Compile Include="Server\Config\SmtpConfiguration.cs" />
+    <Compile Include="Server\Config\StripeConfiguration.cs" />
     <Compile Include="Server\Controllers\HomeController.cs" />
+    <Compile Include="Server\Data\Contracts\ILearnWithQBContext.cs" />
+    <Compile Include="Server\Data\Contracts\ILearnWithQBUow.cs" />
+    <Compile Include="Server\Data\LearnWithQBContext.cs" />
+    <Compile Include="Server\Data\LearnWithQBUow.cs" />
+    <Compile Include="Server\Dtos\AccountDto.cs" />
+    <Compile Include="Server\Dtos\ChangePasswordDto.cs" />
+    <Compile Include="Server\Dtos\CustomerDto.cs" />
+    <Compile Include="Server\Dtos\CustomerProfileDto.cs" />
+    <Compile Include="Server\Dtos\CustomerRegistrationRequestDto.cs" />
+    <Compile Include="Server\Dtos\CustomerRegistrationResponseDto.cs" />
+    <Compile Include="Server\Dtos\GroupDto.cs" />
+    <Compile Include="Server\Dtos\ProfileDto.cs" />
+    <Compile Include="Server\Dtos\RegistrationRequestDto.cs" />
+    <Compile Include="Server\Dtos\RoleDto.cs" />
+    <Compile Include="Server\Dtos\SignInDto.cs" />
+    <Compile Include="Server\Dtos\TokenDto.cs" />
+    <Compile Include="Server\Dtos\UserDto.cs" />
+    <Compile Include="Server\Models\Account.cs" />
+    <Compile Include="Server\Models\AccountStatus.cs" />
+    <Compile Include="Server\Models\AccountType.cs" />
     <Compile Include="Server\Models\BaseEntity.cs" />
     <Compile Include="Server\Models\Customer.cs" />
+    <Compile Include="Server\Models\Group.cs" />
+    <Compile Include="Server\Models\ILoggable.cs" />
+    <Compile Include="Server\Models\Payment.cs" />
+    <Compile Include="Server\Models\Person.cs" />
     <Compile Include="Server\Models\Product.cs" />
+    <Compile Include="Server\Models\Profile.cs" />
+    <Compile Include="Server\Models\ProfileType.cs" />
     <Compile Include="Server\Models\Role.cs" />
     <Compile Include="Server\Models\Session.cs" />
+    <Compile Include="Server\Models\Tenant.cs" />
     <Compile Include="Server\Models\User.cs" />
+    <Compile Include="Server\Models\Video.cs" />
+    <Compile Include="Server\Models\VideoType.cs" />
+    <Compile Include="Server\Services\AccountService.cs" />
+    <Compile Include="Server\Services\BaseService.cs" />
+    <Compile Include="Server\Services\Contracts\IAccountService.cs" />
+    <Compile Include="Server\Services\Contracts\ICustomerService.cs" />
+    <Compile Include="Server\Services\Contracts\IEmailBuilder.cs" />
+    <Compile Include="Server\Services\Contracts\IEmailService.cs" />
+    <Compile Include="Server\Services\Contracts\IEncryptionService.cs" />
+    <Compile Include="Server\Services\Contracts\IIdentityService.cs" />
+    <Compile Include="Server\Services\Contracts\IMailService.cs" />
+    <Compile Include="Server\Services\Contracts\IMembershipService.cs" />
+    <Compile Include="Server\Services\Contracts\IProfileService.cs" />
+    <Compile Include="Server\Services\Contracts\ISecurityService.cs" />
+    <Compile Include="Server\Services\Contracts\ISessionService.cs" />
+    <Compile Include="Server\Services\CustomerService.cs" />
+    <Compile Include="Server\Services\EmailBuilder.cs" />
+    <Compile Include="Server\Services\EmailService.cs" />
+    <Compile Include="Server\Services\EncryptionService.cs" />
+    <Compile Include="Server\Services\IdentityService.cs" />
+    <Compile Include="Server\Services\MembershipService.cs" />
+    <Compile Include="Server\Services\ProfileService.cs" />
+    <Compile Include="Server\Services\SecurityService.cs" />
+    <Compile Include="Server\Services\SessionService.cs" />
+    <Compile Include="Server\SignalRContractResolver.cs" />
     <Compile Include="Server\UnityConfiguration.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Server\Config\" />
-    <Folder Include="Server\Data\Contracts\" />
-    <Folder Include="Server\Services\Contracts\" />
-    <Folder Include="wwwroot\actions\" />
-    <Folder Include="wwwroot\components\" />
-    <Folder Include="wwwroot\domain\" />
+    <Folder Include="dist\" />
+    <Folder Include="Server\Hubs\" />
     <Folder Include="wwwroot\metal\" />
-    <Folder Include="wwwroot\services\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="typings\angularjs\angular-route.d.ts" />
     <TypeScriptCompile Include="typings\angularjs\angular.d.ts" />
     <TypeScriptCompile Include="typings\tsd.d.ts" />
+    <TypeScriptCompile Include="wwwroot\actions\action-constants.ts" />
+    <TypeScriptCompile Include="wwwroot\actions\customer-actions.ts" />
+    <TypeScriptCompile Include="wwwroot\actions\product-actions.ts" />
+    <TypeScriptCompile Include="wwwroot\actions\session-actions.ts" />
+    <TypeScriptCompile Include="wwwroot\actions\video-actions.ts" />
     <TypeScriptCompile Include="wwwroot\app.ts" />
+    <TypeScriptCompile Include="wwwroot\components\app.ts" />
+    <TypeScriptCompile Include="wwwroot\components\home.ts" />
+    <TypeScriptCompile Include="wwwroot\components\payment.ts" />
+    <TypeScriptCompile Include="wwwroot\components\products.ts" />
+    <TypeScriptCompile Include="wwwroot\components\sessions.ts" />
+    <TypeScriptCompile Include="wwwroot\domain\customer.ts" />
+    <TypeScriptCompile Include="wwwroot\domain\product.ts" />
+    <TypeScriptCompile Include="wwwroot\domain\session.ts" />
+    <TypeScriptCompile Include="wwwroot\domain\video.ts" />
+    <TypeScriptCompile Include="wwwroot\services\product-service.ts" />
+    <TypeScriptCompile Include="wwwroot\services\session-service.ts" />
+    <TypeScriptCompile Include="wwwroot\services\video-service.ts" />
+    <TypeScriptCompile Include="wwwroot\stores\customer-store.ts" />
+    <TypeScriptCompile Include="wwwroot\stores\product-store.ts" />
+    <TypeScriptCompile Include="wwwroot\stores\session-store.ts" />
+    <TypeScriptCompile Include="wwwroot\stores\video-store.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />

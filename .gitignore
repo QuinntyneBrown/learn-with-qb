@@ -10,7 +10,7 @@
 ## Ignore generate javascript
 wwwroot/**/*.js
 wwwroot/**/*.js.map
-
+Web.config
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 

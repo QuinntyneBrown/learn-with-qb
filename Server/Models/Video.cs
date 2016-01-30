@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace LearnWithQB.Server.Models
+﻿namespace LearnWithQB.Server.Models
 {
-    public class Video
+    public class Video: BaseEntity
     {
     }
 }

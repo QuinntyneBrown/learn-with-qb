@@ -1,11 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LearnWithQB.Server.Models
 {
-    public class Customer
+    public class Customer: Person
     {
+        public Customer()
+        {
+        }
+
+        [ForeignKey("Profile")]
+        public int? ProfileId { get; set; }
+        public Profile Profile { get; set; }
     }
 }
