@@ -7,6 +7,10 @@
 *.userosscache
 *.sln.docstates
 
+## Ignore generate javascript
+wwwroot/**/*.js
+wwwroot/**/*.js.map
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 

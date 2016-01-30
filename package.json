@@ -1,0 +1,29 @@
+{
+  "name": "learn-with-qb",
+  "version": "1.0.0",
+  "description": "Learn WIth QB",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuinntyneBrown/learn-with-qb.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QuinntyneBrown/learn-with-qb/issues"
+  },
+  "homepage": "https://github.com/QuinntyneBrown/learn-with-qb#readme",
+  "dependencies": {
+    "angular": "^1.4.9",
+    "angular-route": "^1.4.9",
+    "gulp": "^3.9.0",
+    "gulp-angular-templatecache": "^1.8.0",
+    "gulp-concat": "^2.6.0",
+    "ng-x": "^0.5.0",
+    "ng-x-components": "0.0.12",
+    "tsd": "^0.6.5"
+  }
+}
