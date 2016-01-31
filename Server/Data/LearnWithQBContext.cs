@@ -9,7 +9,7 @@ namespace LearnWithQB.Server.Data
     public class LearnWithQBContext : Common.Data.BaseDbContext, ILearnWithQBContext
     {
         public LearnWithQBContext()
-            : base("LearnWithQBContext") { }
+            : base("learnWithQBContext") { }
 
         public DbSet<User> Users { get; set; }
         public DbSet<Role> Roles { get; set; }
